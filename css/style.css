@@ -128,7 +128,7 @@
   border-right-color: #3898ec;
 }
 
-html{
+html, body{
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -2840,7 +2840,7 @@ blockquote {
   }
   .section.for-hero {
     padding-top: 20px;
-    background-position: 36% 0%;
+    background-position: 40% 0%;
   }
   .section.for-how-it-works {
     overflow: hidden;
@@ -2992,7 +2992,7 @@ blockquote {
   }
   .main-features-image-column {
     width: 50vw;
-    height: 505px;
+    height: 550px;
     background-size: cover;
   }
   .main-feature-text {
@@ -3178,6 +3178,9 @@ blockquote {
   .contact-us-heading {
     margin-bottom: 40px;
   }
+  .smart-wallet-logo{
+    margin-top: 70px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3219,7 +3222,7 @@ blockquote {
     padding-bottom: 60px;
   }
   .section.for-hero {
-    background-position: 32% 0%;
+    background-position: 40% 0%;
   }
   .section.for-how-it-works {
     background-position: 50% 63%, 50% 80px;
@@ -3440,6 +3443,72 @@ blockquote {
     width: 100%;
     margin-bottom: 40px;
   }
+  .smart-wallet-logo{
+    margin-top: 70px;
+  }
+  .smart-wallet-logo{
+    margin-top: 70px;
+  }
+  .default h2{
+    margin-bottom: -17px !important;
+  }
+  .vertical-menu a{
+    font-size: 12px !important;
+  }
+  .logout-home{
+    top: 16px !important;
+  }
+  .phone-register-slider, .phone-home-slider, .phone1-slider, .phone2-slider, .phone-send-money-slider{
+    height: 530px !important;
+    width: 246px !important;
+    left: -4px !important;
+  }
+  .home-part-screen-register{
+    right: 2%;
+    top: 17%;
+  }
+}
+@media screen and (max-width: 530px){
+  .hero-image-column{
+    display: block;
+    right: -97px;
+  }
+  .phone1{
+    background: #454545 !important;
+    left: -65px !important;
+    top: 65px;
+  }
+  .phone2{
+    background: #454545 !important;
+    left: -65px !important;
+    top: 86px !important;
+  }
+}
+@media screen and (min-width: 531px) and (max-width: 991px){
+  .phone1{
+    background: #454545 !important;
+    left: -123px !important;
+    top: 65px;
+  }
+  .phone2{
+    background: #454545 !important;
+    left: -115px !important;
+    top: 86px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1300px){
+  .phone1{
+    left: -145px !important;
+  }
+  .phone2{
+    left: -135px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .screenshot-device-mockup {
+    width: 292px;
+    height: 613px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3487,7 +3556,7 @@ blockquote {
   }
   .section.for-hero {
     overflow: hidden;
-    background-position: 36% 0%;
+    background-position: 40% 0%;
   }
   .section.for-how-it-works {
     background-position: 50% 63%, 50% 96px;
@@ -3525,7 +3594,7 @@ blockquote {
     width: 100%;
   }
   .main-features-image-column {
-    height: 424px;
+    height: 545px;
   }
   .feature-image {
     max-width: 80%;
@@ -3622,6 +3691,16 @@ blockquote {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .phone-home-statistic{
+    display: none;
+  }
+  .phone-home, .phone1-features, .phone-send-money {
+    left: 40px !important;
+  }
+  .home-part-screen{
+    right: -16% !important;
+  }
+
 }
 
 
@@ -3786,11 +3865,14 @@ blockquote {
   border-left: 1px solid #ffffff;
   border-radius: 20px;
 }
-.home-part-screen-statistic{
+.my-wallet-screen{
   position: absolute;
-  right: 32%;
+}
+.home-part-screen-statistic{
+  position: relative;
+  left: 78%;
   top: 20%;
-  width: 14%;
+  width: 75%;
   border-left: 1px solid #ffffff7a;
   border-radius: 20px;
 }
